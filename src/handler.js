@@ -24,6 +24,7 @@ const addNoteHandler = (request, h) => {
       },
     });
     response.code(201);
+    console.log(`Note ${id} has been added`);
     return response;
   }
 
